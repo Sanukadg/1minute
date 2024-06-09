@@ -1,5 +1,6 @@
 body{
-  background-color: black;
+  background-color: rgb(17, 18, 37);
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0, 0, 0));
   color: whitesmoke;
   font-family: 'Satoshi', sans-serif;
   font-weight: bold;
