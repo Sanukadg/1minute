@@ -1,0 +1,11 @@
+.header{
+  margin-left: 20px;
+  font-size: 5em;
+}
+
+.italicheader{
+  font-family: 'Zodiak',sans-serif;
+  line-height: 0.6;
+  display: block;
+  font-style: italic;
+}

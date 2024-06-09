@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'HelveticaNow';
+  src: url('./fonts/HelveticaNowText-Bold.ttf') format('truetype'),
+       url('./fonts/HelveticaNowText-ExtBdIta.ttf') format('trutype'),
+       url('./fonts/HelveticaNowText-Medium.ttf') format('truetype'),
+       url('./fonts/HelveticaNowText-Regular.ttf') format('truetype');
+}
+
+.startstopbutton{
+  font-family: 'HelveticaNow', sans-serif ;
+  border: none;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 3em;
+  padding: 15px 30px;
+  border-radius: 15px;
+  background-color: white;
+  font-weight: bold;
+  transition: 0.25s;
+}
+
+.startstopbutton:hover{
+  cursor: pointer;
+  background-color: black;
+  color: whitesmoke;
+  border-color: whitesmoke;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.startstopbutton:active{
+  background-color: rgb(34, 34, 34);
+}
+
+.resetbutton{
+  font-family: 'HelveticaNow', sans-serif ;
+  border: none;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2em;
+  padding: 15px 30px;
+  border-radius: 15px;
+  background-color: white;
+  font-weight: bold;
+  transition: 0.12s;
+}
+
+.buttoncontainer{
+  text-align: center;
+}
+
+.resetbutton:hover{
+  cursor: pointer;
+  background-color: black;
+  color: whitesmoke;
+  border-color: whitesmoke;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.resetbutton:active{
+  background-color: rgb(34, 34, 34);
+}
